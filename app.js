@@ -1,7 +1,6 @@
   function formValidation(){
                                var x = document.getElementById('email').value;
-                                var number = document.getElementById('number').value;
-                                console.log(number);
+                                var number = document.getElementById('number').value
                                 var pos = x.indexOf("@");
                                var dot = x.lastIndexOf(".");
                                
